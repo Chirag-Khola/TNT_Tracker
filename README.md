@@ -1,6 +1,6 @@
-# ProtoFit
+# TNT_Fitness
 
-ProtoFit is an AI-powered fitness assistant that helps users track workout reps, analyze exercise form, and provide corrections using pose detection and machine learning.
+TNT_Fitness is an AI-powered fitness assistant that helps users track workout reps, analyze exercise form, and provide corrections using pose detection and machine learning.
 
 ## Features
 
