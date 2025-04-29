@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProtoFit Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="landing" class="landing-section">
+        <div class="landing-content">
+            <h1 class="landing-title">ProtoFit</h1>
+            <h2 class="landing-sub">Exercise Rep Tracker</h2>
+            <button class="landing-start-btn" id="landing-start-btn">Start</button>
+        </div>
+    </section>
+    <main class="container" id="tracking-section">
+        <header>
+            <img src="logo.png" alt="ProtoFit Logo" class="logo" onerror="this.style.display='none'">
+            <h1>ProtoFit <span class="highlight">Exercise Rep Tracker</span></h1>
+        </header>
+        <section class="controls">
+            <select id="exercise-select">
+                <option value="squat">Squat</option>
+                <option value="pushup">Pushup</option>
+                <option value="bicep_curl">Bicep Curl</option>
+            </select>
+            <button id="start-btn">Start</button>
+        </section>
+        <section class="webcam-section">
+            <canvas id="overlay"></canvas>
+        </section>
+        <section class="feedback">
+            <div class="rep-card">
+                <span id="rep-count">Reps: 0</span>
+            </div>
+            <div class="feedback-msg-card">
+                <span id="feedback-msg"></span>
+            </div>
+        </section>
+        <footer>
+            <span>Made with ❤️ by ProtoFit</span>
+        </footer>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
